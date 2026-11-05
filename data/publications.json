@@ -1,0 +1,1113 @@
+{
+  "updated": "2026-11-05",
+  "year_range": [
+    2021,
+    2026
+  ],
+  "year_basis": "Final issue year where assigned, otherwise publication year.",
+  "verification_note": "Google Scholar profile could not be retrieved due to access limits. Records were verified using publisher metadata, Europe PMC, ORCID and author affiliations; completeness against the Google Scholar profile has not been confirmed.",
+  "scholar_profile": "https://scholar.google.com/citations?user=pOKW9UAAAAAJ&view_op=list_works&sortby=pubdate",
+  "publications": [
+    {
+      "year": 2026,
+      "date": [
+        2026,
+        12
+      ],
+      "title": "Systematic comparison of three glucosyltransferases for enzymatic remodeling of commercial malto- and isomalto-oligosaccharides into slowly digestible oligosaccharides",
+      "authors": [
+        "Hye-Jin Kang",
+        "Jong-Hyeok Kim",
+        "Seong-Jin Hong",
+        "Young-Wan Kim",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.fbio.2026.110299",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.fbio.2026.110299",
+        "https://doi.org/10.1016/j.fbio.2026.110299"
+      ]
+    },
+    {
+      "year": 2026,
+      "date": [
+        2026,
+        10
+      ],
+      "title": "Polystyrene nanoplastics induce oral epithelial barrier dysfunction through suppression of CaMKKβ-AMPKα1 signaling, which is restored by pinoresinol in TR146 cells",
+      "authors": [
+        "Soo-Bin Shin",
+        "Young-Min Kim",
+        "Ha-Young Park"
+      ],
+      "doi": "10.1016/j.ecoenv.2026.120959",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.ecoenv.2026.120959",
+        "https://doi.org/10.1016/j.ecoenv.2026.120959"
+      ]
+    },
+    {
+      "year": 2026,
+      "date": [
+        2026,
+        10
+      ],
+      "title": "Evaluation of novel rebaudioside M analogs: Insights into structure, physicochemical, aqueous solubility, and E-tongue characteristics",
+      "authors": [
+        "Ok-Cheol Kim",
+        "Hye-Jin Kim",
+        "Hee-Min Lee",
+        "Da-Eun Jang",
+        "Ki-Nam Yoon",
+        "Hye-Jin Kang",
+        "Seong-Jin Hong",
+        "Jeong-Yong Cho",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.lwt.2026.120046",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.lwt.2026.120046",
+        "https://doi.org/10.1016/j.lwt.2026.120046"
+      ]
+    },
+    {
+      "year": 2026,
+      "date": [
+        2026,
+        10
+      ],
+      "title": "Biochemical characterization of a commercial β-glucosidase for the efficient production of the natural sweetener phyllodulcin from Hydrangea serrata extract",
+      "authors": [
+        "Min-Hyeong Kim",
+        "Ye-Seon Won",
+        "Hye-Jin Kang",
+        "Jeong-Yong Cho",
+        "Seong-Jin Hong",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.fbio.2026.109727",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.fbio.2026.109727",
+        "https://doi.org/10.1016/j.fbio.2026.109727"
+      ]
+    },
+    {
+      "year": 2026,
+      "date": [
+        2026,
+        7,
+        28
+      ],
+      "title": "Dual-Enzyme Biocatalytic Synthesis of Novel Rebaudioside M Analogs with Enhanced Aqueous Solubility, Physicochemical Stability, and Sensory Profiles",
+      "authors": [
+        "Hye-Jin Kang",
+        "Ok-Cheol Kim",
+        "Da-Eun Jang",
+        "Hee-Min Lee",
+        "Bu-Soo Park",
+        "Masayuki Okuyama",
+        "Jeong-Yong Cho",
+        "Seong-Jin Hong",
+        "Young-Min Kim"
+      ],
+      "doi": "10.3390/foods15152647",
+      "sources": [
+        "https://api.crossref.org/works/10.3390/foods15152647",
+        "https://doi.org/10.3390/foods15152647",
+        "https://europepmc.org/article/MED/42587907"
+      ]
+    },
+    {
+      "year": 2026,
+      "date": [
+        2026,
+        7
+      ],
+      "title": "Safety and Next-Generation Probiotic Potential of Mitsuokella multacida AGMB01124 Newly Isolated from Healthy Swine Feces",
+      "authors": [
+        "Seo-Joon Yeom",
+        "Jihye Yang",
+        "Ki-Nam Yoon",
+        "Sang-Su Kim",
+        "Min-Ji Cho",
+        "Jong-Heum Park",
+        "Beom-Seok Song",
+        "Joo Hyung Park",
+        "Yeung Bae Jin",
+        "Young-Min Kim",
+        "Seung-Hwan Park",
+        "Ju Huck Lee",
+        "Hyeun Bum Kim",
+        "Ju-Hoon Lee",
+        "Jae-Kyung Kim"
+      ],
+      "doi": "10.1007/s12602-026-10925-y",
+      "sources": [
+        "https://api.crossref.org/works/10.1007/s12602-026-10925-y",
+        "https://doi.org/10.1007/s12602-026-10925-y",
+        "https://europepmc.org/article/MED/41826536"
+      ]
+    },
+    {
+      "year": 2026,
+      "date": [
+        2026,
+        6
+      ],
+      "title": "Elucidation of caffeine degradation in kombucha by Komagataeibacter saccharivorans KS1 and low-caffeine kombucha production",
+      "authors": [
+        "Da-Eun Jang",
+        "Seong-Jin Hong",
+        "Ki-Nam Yoon",
+        "Hye-Jin Kang",
+        "Ok Cheol Kim",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.fbio.2026.108786",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.fbio.2026.108786",
+        "https://doi.org/10.1016/j.fbio.2026.108786"
+      ]
+    },
+    {
+      "year": 2026,
+      "date": [
+        2026,
+        2
+      ],
+      "title": "Comparative analysis of nutritional components and antioxidant properties of peel powders from commercial citrus, apple, and grape",
+      "authors": [
+        "Nam Hyun Lee",
+        "Bok-Mi Jung",
+        "Young-Min Kim"
+      ],
+      "doi": "10.11002/fsp.2026.33.1.104",
+      "sources": [
+        "https://api.crossref.org/works/10.11002/fsp.2026.33.1.104",
+        "https://doi.org/10.11002/fsp.2026.33.1.104"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        12
+      ],
+      "title": "Pinoresinol enhances intestinal tight junction integrity via activation of the CaMKKβ–AMPKα1 pathway in Caco-2 cells",
+      "authors": [
+        "Soo-Bin Shin",
+        "Young-Min Kim",
+        "Ha-Young Park"
+      ],
+      "doi": "10.1186/s12263-025-00788-3",
+      "sources": [
+        "https://api.crossref.org/works/10.1186/s12263-025-00788-3",
+        "https://doi.org/10.1186/s12263-025-00788-3"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        12
+      ],
+      "title": "Integration of metagenomics and targeted metabolomics reveals the flavor metabolism network of the microbial community in traditional watermelon soybean paste",
+      "authors": [
+        "Zhiyuan Tian",
+        "Nam-Hyeok Koak",
+        "Beningasih Kinanti",
+        "Jong-Bang Eun",
+        "Young-Min Kim",
+        "Changcheng Zhao"
+      ],
+      "doi": "10.1016/j.foodres.2025.117386",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.foodres.2025.117386",
+        "https://doi.org/10.1016/j.foodres.2025.117386"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        12
+      ],
+      "title": "A comparative study on the characteristics and properties of cyclodextrans, cyclodextrins, and their complexes with biologically active compounds",
+      "authors": [
+        "Seong-Jin Hong",
+        "Bo-Ram Park",
+        "Byung-Hoo Lee",
+        "Jeong-Yong Cho",
+        "Bu-Soo Park",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.foodhyd.2025.111587",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.foodhyd.2025.111587",
+        "https://doi.org/10.1016/j.foodhyd.2025.111587"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        12
+      ],
+      "title": "A comparative study on stevioside- and rubusoside-assisted micellar solubilization of clofazimine for physicochemical and in vitro release properties",
+      "authors": [
+        "Seong-Jin Hong",
+        "Hye-Su An",
+        "Bo-Ram Park",
+        "Ki-Nam Yoon",
+        "Hye-Jin Kang",
+        "Sung Jae Shin",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.ijpx.2025.100424",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.ijpx.2025.100424",
+        "https://doi.org/10.1016/j.ijpx.2025.100424",
+        "https://europepmc.org/article/MED/41230037"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        11,
+        14
+      ],
+      "title": "Comparative study of rebaudioside A and rebaudioside Aα: physicochemical properties and in vivo metabolism",
+      "authors": [
+        "Hye-Jin Kim",
+        "Hye-Jin Kang",
+        "Sangyi Lim",
+        "Ok Cheol Kim",
+        "Ki-Nam Yoon",
+        "Junhyeong Lee",
+        "Merc Emil Matienzo",
+        "Min-Jung Park",
+        "Bu-Soo Park",
+        "Jeong-Yong Cho",
+        "Seong-Jin Hong",
+        "Dong-il Kim",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1038/s41538-025-00585-7",
+      "sources": [
+        "https://api.crossref.org/works/10.1038/s41538-025-00585-7",
+        "https://doi.org/10.1038/s41538-025-00585-7",
+        "https://europepmc.org/article/MED/41238664"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        11
+      ],
+      "title": "Rutin Enhances Intestinal Barrier Function and Protects Against X‐Ray Radiation‐Induced Barrier Dysfunction in Human Epithelial Caco‐2 Cells",
+      "authors": [
+        "Ha‐Young Park",
+        "Jin‐Hee Yu",
+        "Soo‐Bin Shin",
+        "Young‐Min Kim"
+      ],
+      "doi": "10.1002/mnfr.70235",
+      "sources": [
+        "https://api.crossref.org/works/10.1002/mnfr.70235",
+        "https://doi.org/10.1002/mnfr.70235",
+        "https://europepmc.org/article/MED/40884154"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        11
+      ],
+      "title": "Improving Hygienic Quality of Pork Cutlets Using Electron-Beam Irradiation",
+      "authors": [
+        "Seo-Joon Yeom",
+        "Sang-Su Kim",
+        "Ki-Nam Yoon",
+        "Min-Ji Cho",
+        "Beom-Seok Song",
+        "Jong-Heum Park",
+        "Do-Yeong Kim",
+        "Young-Min Kim",
+        "Jae-Kyung Kim"
+      ],
+      "doi": "10.5851/kosfa.2025.e16",
+      "sources": [
+        "https://api.crossref.org/works/10.5851/kosfa.2025.e16",
+        "https://doi.org/10.5851/kosfa.2025.e16",
+        "https://europepmc.org/article/MED/41821531"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        11
+      ],
+      "title": "Bioconversion and characteristics of the rebaudioside D-like compound by glucosyltransferases combination",
+      "authors": [
+        "Hye-Jin Kim",
+        "Ok Cheol Kim",
+        "Seong-Jin Hong",
+        "Hye-Jin Kang",
+        "Da Eun Jang",
+        "Boo-Su Park",
+        "Jeong-Yong Cho",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.foodchem.2025.145391",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.foodchem.2025.145391",
+        "https://doi.org/10.1016/j.foodchem.2025.145391",
+        "https://europepmc.org/article/MED/40628072"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        9,
+        28
+      ],
+      "title": "Complete Genome Sequence of Komagataeibacter saccharivorans KS1 Isolated from a Kombucha SCOBY",
+      "authors": [
+        "Da-Eun Jang",
+        "Ki-Nam Yoon",
+        "Seong-Jin Hong",
+        "Hye-Jin Kang",
+        "Ok Cheol Kim",
+        "Young-Min Kim"
+      ],
+      "doi": "10.48022/mbl.2508.08006",
+      "sources": [
+        "https://api.crossref.org/works/10.48022/mbl.2508.08006",
+        "https://doi.org/10.48022/mbl.2508.08006"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        9,
+        8
+      ],
+      "title": "Pinoresinol enhances oral barrier integrity and function in human buccal cell monolayers",
+      "authors": [
+        "Soo-Bin Shin",
+        "Young-Min Kim",
+        "Ha-Young Park"
+      ],
+      "doi": "10.1371/journal.pone.0331242",
+      "sources": [
+        "https://api.crossref.org/works/10.1371/journal.pone.0331242",
+        "https://doi.org/10.1371/journal.pone.0331242"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        8
+      ],
+      "title": "Quality characteristics of ginger powder as affected by the number of steam-drying treatments",
+      "authors": [
+        "Mi-Kyeong Kim",
+        "Bok-Mi Jung",
+        "Young-Min Kim"
+      ],
+      "doi": "10.11002/fsp.2025.32.4.694",
+      "sources": [
+        "https://api.crossref.org/works/10.11002/fsp.2025.32.4.694",
+        "https://doi.org/10.11002/fsp.2025.32.4.694"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        7
+      ],
+      "title": "Rebaudioside D and M, the next-generation sugar substitutes, do not exacerbate metabolic dysfunction in high-fat diet mice",
+      "authors": [
+        "Sangyi Lim",
+        "Min-Jung Park",
+        "Ki-Nam Yoon",
+        "Junhyeong Lee",
+        "Merc Emil Matienzo",
+        "Seong-Jin Hong",
+        "Keon Kim",
+        "Yeong-Bin Baek",
+        "Chang-Min Lee",
+        "Young-Min Kim",
+        "Bu-Soo Park",
+        "Dong-il Kim"
+      ],
+      "doi": "10.1016/j.fochx.2025.102679",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.fochx.2025.102679",
+        "https://doi.org/10.1016/j.fochx.2025.102679",
+        "https://europepmc.org/article/MED/40612770"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        5
+      ],
+      "title": "Differences in extraction methods influence the physicochemical properties, antiradical, and anti-inflammatory effects of porphyran from Pyropia dentata",
+      "authors": [
+        "Seong-Jin Hong",
+        "Hyeon-Jeong Lim",
+        "Bo-Ram Park",
+        "Ha-Nul Lee",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.ijbiomac.2025.141258",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.ijbiomac.2025.141258",
+        "https://doi.org/10.1016/j.ijbiomac.2025.141258",
+        "https://europepmc.org/article/MED/39986519"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": [
+        2025,
+        3
+      ],
+      "title": "Kombucha inhibits adipogenesis and promotes lipolytic activity in 3T3-L1 adipocytes",
+      "authors": [
+        "Ah-Young Jeong",
+        "Eun-Bi Ma",
+        "Seong-Jin Hong",
+        "Eunhye Kim",
+        "Sugju Ko",
+        "Joo Young Huh",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1007/s10068-024-01740-8",
+      "sources": [
+        "https://api.crossref.org/works/10.1007/s10068-024-01740-8",
+        "https://doi.org/10.1007/s10068-024-01740-8",
+        "https://europepmc.org/article/MED/39974855"
+      ]
+    },
+    {
+      "year": 2024,
+      "date": [
+        2024,
+        12
+      ],
+      "title": "Changes in Non-volatile Metabolites of Elaeagnus multiflora Fruit Vinegar during Fermentation",
+      "authors": [
+        "Geon Wi",
+        "Myung-Seong Kim",
+        "Jae-Hak Moon",
+        "Young-Min Kim",
+        "Jeong-Yong Cho"
+      ],
+      "doi": "10.29335/tals.2024.62.33",
+      "sources": [
+        "https://api.crossref.org/works/10.29335/tals.2024.62.33",
+        "https://doi.org/10.29335/tals.2024.62.33"
+      ]
+    },
+    {
+      "year": 2024,
+      "date": [
+        2024,
+        11
+      ],
+      "title": "Optimization of microbial consortia and materials composition enhances gluconic acid content in kombucha",
+      "authors": [
+        "Ah‐Young Jeong",
+        "Seong‐Jin Hong",
+        "Da‐Eun Jang",
+        "Eunhye Kim",
+        "Sugju Ko",
+        "Young‐Min Kim"
+      ],
+      "doi": "10.1111/1750-3841.17428",
+      "sources": [
+        "https://api.crossref.org/works/10.1111/1750-3841.17428",
+        "https://doi.org/10.1111/1750-3841.17428",
+        "https://europepmc.org/article/MED/39366779"
+      ]
+    },
+    {
+      "year": 2024,
+      "date": [
+        2024,
+        10,
+        12
+      ],
+      "title": "Effects of X-ray irradiation on pathogen inactivation, quality changes, and hydrocarbon profiles of pork cutlets",
+      "authors": [
+        "Seo-Joon Yeom",
+        "Sang-Su Kim",
+        "Ki-Nam Yoon",
+        "Min-Ji Cho",
+        "Beom-Seok Song",
+        "Jong-Heum Park",
+        "Young-Min Kim",
+        "Jae-Kyung Kim"
+      ],
+      "doi": "10.1111/ijfs.17565",
+      "sources": [
+        "https://api.crossref.org/works/10.1111/ijfs.17565",
+        "https://doi.org/10.1111/ijfs.17565"
+      ]
+    },
+    {
+      "year": 2024,
+      "date": [
+        2024,
+        6
+      ],
+      "title": "Effect of modification methods on the physical properties and immunomodulatory activity of particulate β-glucan",
+      "authors": [
+        "Ha-Nul Lee",
+        "Hyeon-Jeong Lim",
+        "Ji-Yeon Park",
+        "Joo-Hee Choi",
+        "Seong-Jin Hong",
+        "Da Eun Jang",
+        "Tae-Su Kim",
+        "Su Hui Seong",
+        "Bo-Ram Kim",
+        "Jin-Ho Kim",
+        "Chan Seo",
+        "Jong-Hwan Park",
+        "Jin-Woo Jeong",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1007/s10068-023-01473-0",
+      "sources": [
+        "https://api.crossref.org/works/10.1007/s10068-023-01473-0",
+        "https://doi.org/10.1007/s10068-023-01473-0",
+        "https://europepmc.org/article/MED/38623421"
+      ]
+    },
+    {
+      "year": 2023,
+      "date": [
+        2023,
+        10
+      ],
+      "title": "Effect of gamma irradiation on post-harvest quality of king oyster mushrooms (Pleurotus eryngii)",
+      "authors": [
+        "Seo-Joon Yeom",
+        "Geon-Ah Lee",
+        "Sang-Su Kim",
+        "Ki-Nam Yoon",
+        "Beom-Seok Song",
+        "Jong-Heum Park",
+        "Woo-Jin Jung",
+        "Young-Min Kim",
+        "Jae-Kyung Kim"
+      ],
+      "doi": "10.11002/kjfp.2023.30.5.729",
+      "sources": [
+        "https://api.crossref.org/works/10.11002/kjfp.2023.30.5.729",
+        "https://doi.org/10.11002/kjfp.2023.30.5.729"
+      ]
+    },
+    {
+      "year": 2023,
+      "date": [
+        2023,
+        8
+      ],
+      "title": "Slow digestion properties of long-sized isomaltooligosaccharides synthesized by a transglucosidase from Thermoanaerobacter thermocopriae",
+      "authors": [
+        "Ha-eun Um",
+        "Bo-Ram Park",
+        "Young Min Kim",
+        "Byung-Hoo Lee"
+      ],
+      "doi": "10.1016/j.foodchem.2023.135892",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.foodchem.2023.135892",
+        "https://doi.org/10.1016/j.foodchem.2023.135892"
+      ]
+    },
+    {
+      "year": 2023,
+      "date": [
+        2023,
+        5,
+        15
+      ],
+      "title": "Encapsulation of Clofazimine by Cyclodextran: Preparation, Characterization, and In Vitro Release Properties",
+      "authors": [
+        "Seong-Jin Hong",
+        "Young-Min Kim"
+      ],
+      "doi": "10.3390/ijms24108808",
+      "sources": [
+        "https://api.crossref.org/works/10.3390/ijms24108808",
+        "https://doi.org/10.3390/ijms24108808",
+        "https://europepmc.org/article/MED/37240153"
+      ]
+    },
+    {
+      "year": 2023,
+      "date": [
+        2023,
+        5,
+        4
+      ],
+      "title": "Gymnodinialimonas phycosphaerae sp. nov., a phycosphere bacterium isolated from Karlodinium veneficum",
+      "authors": [
+        "Yuxin Peng",
+        "Lingmin Jiang",
+        "Yue Jiang",
+        "Jiyoon Seo",
+        "Doeun Jeon",
+        "Young-Min Kim",
+        "Zhun Li",
+        "Jiyoung Lee"
+      ],
+      "doi": "10.1099/ijsem.0.005874",
+      "sources": [
+        "https://api.crossref.org/works/10.1099/ijsem.0.005874",
+        "https://doi.org/10.1099/ijsem.0.005874"
+      ]
+    },
+    {
+      "year": 2023,
+      "date": [
+        2023,
+        3
+      ],
+      "title": "Ethanol extract of Chrysanthemum zawadskii inhibits the NLRP3 inflammasome by suppressing ASC oligomerization in macrophages",
+      "authors": [
+        "Ah-Ra Jang",
+        "Ha-Nul Lee",
+        "Jung Joo Hong",
+        "Young-Min Kim",
+        "Jong-Hwan Park"
+      ],
+      "doi": "10.3892/etm.2023.11827",
+      "sources": [
+        "https://europepmc.org/article/MED/36845948",
+        "https://doi.org/10.3892/etm.2023.11827"
+      ]
+    },
+    {
+      "year": 2022,
+      "date": [
+        2022,
+        11,
+        6
+      ],
+      "title": "Lactic Acid for Green Chemical Industry: Recent Advances in and Future Prospects for Production Technology, Recovery, and Applications",
+      "authors": [
+        "Jua Kim",
+        "Young-Min Kim",
+        "Veeranjaneya Reddy Lebaka",
+        "Young-Jung Wee"
+      ],
+      "doi": "10.3390/fermentation8110609",
+      "sources": [
+        "https://api.crossref.org/works/10.3390/fermentation8110609",
+        "https://doi.org/10.3390/fermentation8110609"
+      ]
+    },
+    {
+      "year": 2022,
+      "date": [
+        2022,
+        6
+      ],
+      "title": "Carbohydrate-binding module of cycloisomaltooligosaccharide glucanotransferase from Thermoanaerobacter thermocopriae improves its cyclodextran production",
+      "authors": [
+        "Seong-Jin Hong",
+        "Bo-Ram Park",
+        "Ha-Nul Lee",
+        "Da Eun Jang",
+        "Hye-Jin Kang",
+        "Kashif Ameer",
+        "Soo-Jung Kim",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.enzmictec.2022.110023",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.enzmictec.2022.110023",
+        "https://doi.org/10.1016/j.enzmictec.2022.110023",
+        "https://europepmc.org/article/MED/35247829"
+      ]
+    },
+    {
+      "year": 2022,
+      "date": [
+        2022,
+        5,
+        31
+      ],
+      "title": "Pseudophaeobacter flagellatus sp. nov., isolated from coastal water",
+      "authors": [
+        "Yong Guan",
+        "Yue Jiang",
+        "Young-Min Kim",
+        "Seung Yeob Yu",
+        "Seung-Hyeon Choi",
+        "Hanna Choe",
+        "Zhun Li",
+        "Mi-Kyung Lee"
+      ],
+      "doi": "10.1099/ijsem.0.005399",
+      "sources": [
+        "https://api.crossref.org/works/10.1099/ijsem.0.005399",
+        "https://doi.org/10.1099/ijsem.0.005399"
+      ]
+    },
+    {
+      "year": 2022,
+      "date": [
+        2022,
+        5,
+        1
+      ],
+      "title": "Salicornia herbacea Aqueous Extracts Regulate NLRP3 Inflammasome Activation in Macrophages and Trophoblasts",
+      "authors": [
+        "Eui-Jeong Noh",
+        "Jun-Young Lee",
+        "Seo-Ye Park",
+        "Jong-Hwan Park",
+        "Jeong-Yong Cho",
+        "Young-Min Kim",
+        "Jong-Seok Kim",
+        "Ki-Mo Lee",
+        "Sunga Choi",
+        "Sung Ki Lee"
+      ],
+      "doi": "10.1089/jmf.2021.k.0154",
+      "sources": [
+        "https://api.crossref.org/works/10.1089/jmf.2021.k.0154",
+        "https://doi.org/10.1089/jmf.2021.k.0154"
+      ]
+    },
+    {
+      "year": 2022,
+      "date": [
+        2022,
+        1
+      ],
+      "title": "Synthesis and characteristics of a rebaudioside-A like compound as a potential non-caloric natural sweetener by Leuconostoc kimchii dextransucrase",
+      "authors": [
+        "Hye-Jin Kang",
+        "Ha-Nul Lee",
+        "Seong-Jin Hong",
+        "Bo-Ram Park",
+        "Kashif Ameer",
+        "Jeong-Yong Cho",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.foodchem.2021.130623",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.foodchem.2021.130623",
+        "https://doi.org/10.1016/j.foodchem.2021.130623",
+        "https://europepmc.org/article/MED/34320438"
+      ]
+    },
+    {
+      "year": 2022,
+      "date": [
+        2022,
+        1
+      ],
+      "title": "Enhanced biotransformation of the minor ginsenosides in red ginseng extract by Penicillium decumbens β-glucosidase",
+      "authors": [
+        "So-Yeon Kim",
+        "Ha-Nul Lee",
+        "Seong-Jin Hong",
+        "Hye-Jin Kang",
+        "Jae Young Cho",
+        "Doman Kim",
+        "Kashif Ameer",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.enzmictec.2021.109941",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.enzmictec.2021.109941",
+        "https://doi.org/10.1016/j.enzmictec.2021.109941",
+        "https://europepmc.org/article/MED/34785432"
+      ]
+    },
+    {
+      "year": 2022,
+      "date": [
+        2022,
+        1
+      ],
+      "title": "Characterization of a lactic acid bacterium-derived β-glucosidase for the production of rubusoside from stevioside",
+      "authors": [
+        "Jin-A Ko",
+        "So-Yeon Kim",
+        "Hye-Soo Ahn",
+        "Jae-Gyune Go",
+        "Young-Bae Ryu",
+        "Woo Song Lee",
+        "Young-Jung Wee",
+        "Jun-Seong Park",
+        "Doman Kim",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.enzmictec.2021.109939",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.enzmictec.2021.109939",
+        "https://doi.org/10.1016/j.enzmictec.2021.109939",
+        "https://europepmc.org/article/MED/34798448"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        11,
+        15
+      ],
+      "title": "Optimization of Microwave-Assisted Green Method for Enhanced Solubilization of Water-Soluble Curcuminoids Prepared Using Steviol Glycosides",
+      "authors": [
+        "Jin-A Ko",
+        "Young-Bae Ryu",
+        "Woo-Song Lee",
+        "Kashif Ameer",
+        "Young-Min Kim"
+      ],
+      "doi": "10.3390/foods10112803",
+      "sources": [
+        "https://api.crossref.org/works/10.3390/foods10112803",
+        "https://doi.org/10.3390/foods10112803",
+        "https://europepmc.org/article/MED/34829084"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        11,
+        11
+      ],
+      "title": "Cell-Free Supernatant of Odoribacter splanchnicus Isolated From Human Feces Exhibits Anti-colorectal Cancer Activity",
+      "authors": [
+        "Byeong Seob Oh",
+        "Won Jung Choi",
+        "Ji-Sun Kim",
+        "Seoung Woo Ryu",
+        "Seung Yeob Yu",
+        "Jung-Sook Lee",
+        "Seung-Hwan Park",
+        "Se Won Kang",
+        "Jiyoung Lee",
+        "Won Yong Jung",
+        "Young-Min Kim",
+        "Jae-Ho Jeong",
+        "Ju Huck Lee"
+      ],
+      "doi": "10.3389/fmicb.2021.736343",
+      "sources": [
+        "https://europepmc.org/article/MED/34867852",
+        "https://doi.org/10.3389/fmicb.2021.736343"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        11,
+        5
+      ],
+      "title": "Flagellatimonas centrodinii gen. nov., sp. nov., a novel member of the family Nevskiaceae isolated from toxin-producing dinoflagellate Centrodinium punctatum",
+      "authors": [
+        "Yue Jiang",
+        "Lingmin Jiang",
+        "Yuxin Peng",
+        "Ki-Hyun Kim",
+        "Hyeon Ho Shin",
+        "Young-Min Kim",
+        "Jiyoung Lee",
+        "Zhun Li"
+      ],
+      "doi": "10.1099/ijsem.0.005084",
+      "sources": [
+        "https://api.crossref.org/works/10.1099/ijsem.0.005084",
+        "https://doi.org/10.1099/ijsem.0.005084"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        10
+      ],
+      "title": "Effective bioconversion of 1,3-propanediol from biodiesel-derived crude glycerol using organic acid resistance–enhanced Lactobacillus reuteri JH83",
+      "authors": [
+        "Jung-Hyun Ju",
+        "Sun-Yeon Heo",
+        "Sang-Wha Choi",
+        "Young-Min Kim",
+        "Min-Soo Kim",
+        "Chul-Ho Kim",
+        "Baek-Rock Oh"
+      ],
+      "doi": "10.1016/j.biortech.2021.125361",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.biortech.2021.125361",
+        "https://doi.org/10.1016/j.biortech.2021.125361"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        7,
+        23
+      ],
+      "title": "Pedobacter endophyticus sp. nov., an endophytic bacterium isolated from Carex pumila",
+      "authors": [
+        "Yuxin Peng",
+        "Lingmin Jiang",
+        "Jiyoon Seo",
+        "Zhun Li",
+        "Hanna Choe",
+        "Jae Cheol Jeong",
+        "Suk Weon Kim",
+        "Young-Min Kim",
+        "Cha Young Kim",
+        "Jiyoung Lee"
+      ],
+      "doi": "10.1099/ijsem.0.004915",
+      "sources": [
+        "https://api.crossref.org/works/10.1099/ijsem.0.004915",
+        "https://doi.org/10.1099/ijsem.0.004915"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        6
+      ],
+      "title": "Synthesis of improved long-chain isomaltooligosaccharide, using a novel glucosyltransferase derived from Thermoanaerobacter thermocopriae, with maltodextrin",
+      "authors": [
+        "Bo-Ram Park",
+        "Ji Yeong Park",
+        "So Hee Lee",
+        "Seong-Jin Hong",
+        "Ji Hye Jeong",
+        "Ji-Ho Choi",
+        "Shin-Yong Park",
+        "Chan Soon Park",
+        "Ha-Nul Lee",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1016/j.enzmictec.2021.109788",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.enzmictec.2021.109788",
+        "https://doi.org/10.1016/j.enzmictec.2021.109788",
+        "https://europepmc.org/article/MED/33992410"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        4
+      ],
+      "title": "Combination of vegetable soup and glucan demonstrates synergistic effects on macrophage-mediated immune responses",
+      "authors": [
+        "Ha-Nul Lee",
+        "Joo-Hee Choi",
+        "Ji-Yeon Park",
+        "Jae-Hun Ahn",
+        "Da Eun Jang",
+        "Jae Gun Shim",
+        "Jong-Hwan Park",
+        "Young-Min Kim"
+      ],
+      "doi": "10.1007/s10068-021-00888-x",
+      "sources": [
+        "https://api.crossref.org/works/10.1007/s10068-021-00888-x",
+        "https://doi.org/10.1007/s10068-021-00888-x",
+        "https://europepmc.org/article/MED/33936850"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        4
+      ],
+      "title": "Antioxidant mechanism, antibacterial activity, and functional characterization of peptide fractions obtained from barred mackerel gelatin with a focus on application in carbonated beverages",
+      "authors": [
+        "Armin Mirzapour-Kouhdasht",
+        "Marzieh Moosavi-Nasab",
+        "Young-Min Kim",
+        "Jong-Bang Eun"
+      ],
+      "doi": "10.1016/j.foodchem.2020.128339",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.foodchem.2020.128339",
+        "https://doi.org/10.1016/j.foodchem.2020.128339"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        3,
+        31
+      ],
+      "title": "Increasing gallic acid contents in green tea extracts using acid hydrolysis",
+      "authors": [
+        "Hae-Soo Kim",
+        "Do Yeon Jeon",
+        "Ha-Nul Lee",
+        "Seong-Jin Hong",
+        "Seung-Hee Nam",
+        "Jeong Choi",
+        "Yong-Hee Kwon",
+        "Doo-Gyung Moon",
+        "Young-Min Kim"
+      ],
+      "doi": "10.5897/ajfs2020.2024",
+      "sources": [
+        "https://api.crossref.org/works/10.5897/ajfs2020.2024",
+        "https://doi.org/10.5897/ajfs2020.2024",
+        "https://academicjournals.org/journal/AJFS/article-abstract/9CF578266230"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": [
+        2021,
+        3
+      ],
+      "title": "Effective rebaudioside a separation from stevia extracts by enzymatic bioconversion",
+      "authors": [
+        "Ha‐Nul Lee",
+        "Seong‐Jin Hong",
+        "HyeJin Kang",
+        "Jung‐Hyun Ju",
+        "Bo‐Ram Park",
+        "Jin‐A Ko",
+        "Young‐Min Kim"
+      ],
+      "doi": "10.1111/jfpp.15202",
+      "sources": [
+        "https://api.crossref.org/works/10.1111/jfpp.15202",
+        "https://doi.org/10.1111/jfpp.15202"
+      ]
+    }
+  ]
+}
