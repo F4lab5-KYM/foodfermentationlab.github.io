@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>우리 연구실 홈페이지</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, "Malgun Gothic", sans-serif;
+      line-height: 1.8;
+      color: #243247;
+      background: #f5f7fa;
+    }
+    header {
+      padding: 56px 24px;
+      color: white;
+      background: #173b56;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 12px; }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px 24px;
+      padding: 16px;
+      background: white;
+    }
+    nav a { color: #173b56; text-decoration: none; }
+    main { max-width: 960px; margin: auto; padding: 24px; }
+    section {
+      margin-bottom: 24px;
+      padding: 28px;
+      background: white;
+      border-radius: 12px;
+    }
+    h2 { color: #173b56; }
+    img { max-width: 100%; height: auto; }
+    footer { padding: 24px; text-align: center; color: #667085; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>우리 연구실</h1>
+    <p>연구실을 소개하는 한 문장을 입력하세요.</p>
+  </header>
+
+  <nav>
+    <a href="#about">연구실 소개</a>
+    <a href="#research">연구 분야</a>
+    <a href="#publications">연구 실적</a>
+    <a href="#contact">연락처</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>연구실 소개</h2>
+      <p>연구실의 소속, 연구 목표, 주요 활동을 입력하세요.</p>
+    </section>
+
+    <section id="research">
+      <h2>연구 분야</h2>
+      <ul>
+        <li>탄수화물 효소공학</li>
+        <li>기능성 식품 소재 개발</li>
+        <li>단백질 구조 기반 효소 설계</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>연구 실적</h2>
+      <p>논문 제목, 저자, 학술지, 발표 연도를 입력하세요.</p>
+    </section>
+
+    <section id="contact">
+      <h2>연락처</h2>
+      <p>소속: 대학 및 학과명을 입력하세요.</p>
+      <p>이메일: your-email@example.com</p>
+    </section>
+  </main>
+
+  <footer>우리 연구실 홈페이지</footer>
+</body>
+</html>
