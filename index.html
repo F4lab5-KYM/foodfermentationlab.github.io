@@ -28,6 +28,11 @@
 
     .publications-toolbar{display:flex;justify-content:space-between;align-items:center;gap:28px;padding-bottom:28px;margin-bottom:48px;border-bottom:1px solid var(--line)}.publications-range{font-size:11px;letter-spacing:.14em;color:var(--muted)}.publication-years{display:flex;flex-wrap:wrap;gap:8px}.publication-years button{min-width:58px;min-height:42px;padding:8px 14px;border:1px solid var(--line);background:transparent;font-size:12px;font-weight:500;transition:background .2s,color .2s}.publication-years button:hover,.publication-years button:focus-visible{background:var(--ink);color:#fff;border-color:var(--ink)}.publication-year-group{display:grid;grid-template-columns:140px minmax(0,1fr);gap:44px;align-items:start;margin-bottom:62px;scroll-margin-top:16px}.publication-year-group:last-child{margin-bottom:0}.publication-year-heading{position:sticky;top:152px;border-top:2px solid var(--ink);padding-top:20px;font-size:42px;font-weight:500;letter-spacing:-.06em;line-height:1.2;scroll-margin-top:16px}.publication-list{margin:0;padding:0;list-style:none;border-top:1px solid var(--ink);counter-reset:publication}.publication-entry{position:relative;padding:25px 77px 25px 35px;border-bottom:1px solid var(--line);counter-increment:publication}.publication-entry:before{content:counter(publication,decimal-leading-zero);position:absolute;left:0;top:27px;color:#73736b;font-size:11px;font-variant-numeric:tabular-nums}.publication-title{font-size:17px;font-weight:500;letter-spacing:-.015em;line-height:1.6;overflow-wrap:anywhere}.publication-journal{margin-top:8px;font-size:13px;font-style:italic;font-weight:400;color:var(--muted);line-height:1.65;overflow-wrap:anywhere}.publication-authors{margin-top:6px;font-size:13px;font-weight:400;color:#60605b;line-height:1.9;overflow-wrap:anywhere}.publication-authors strong{font-weight:750;color:#111}.publication-doi{position:absolute;right:0;top:24px;display:inline-flex;align-items:center;gap:10px;min-height:44px;font-size:11px;letter-spacing:.06em;font-weight:500}.publication-doi:hover{text-decoration:underline;text-underline-offset:4px}.publication-doi span{font-size:18px}
     @media(max-width:760px){.publications-toolbar{align-items:flex-start;flex-direction:column;gap:18px;margin-bottom:34px;padding-bottom:24px}.publication-years{width:100%;gap:6px}.publication-years button{flex:1;min-width:44px;padding:8px}.publication-year-group{grid-template-columns:1fr;gap:22px;margin-bottom:44px;scroll-margin-top:0}.publication-year-heading{position:static;font-size:35px;padding-top:17px;scroll-margin-top:0}.publication-entry{padding:23px 0 22px 29px}.publication-entry:before{top:27px}.publication-title{font-size:16px;line-height:1.6}.publication-journal{font-size:12px}.publication-authors{font-size:12px;margin-top:6px}.publication-doi{position:static;margin-top:9px;min-height:40px}.publication-list{border-top:0}.publication-entry:first-child{padding-top:0}.publication-entry:first-child:before{top:4px}}
+
+    .members-intro{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:0 0 28px}.members-intro h2{font-size:34px;font-weight:550;letter-spacing:-.045em}.members-intro .eyebrow{font-size:10px;color:var(--muted)}.member-group{display:grid;grid-template-columns:210px minmax(0,1fr);gap:42px;padding:28px 0 46px;border-top:1px solid var(--line)}.member-group:last-child{padding-bottom:0}.member-group-number{display:block;font-size:11px;letter-spacing:.08em;color:var(--muted);margin-bottom:18px}.member-group-heading h3{font-size:24px;line-height:1.35;letter-spacing:-.03em;font-weight:550;max-width:200px}.member-grid{display:grid;grid-template-columns:repeat(3,minmax(0,260px));gap:40px 28px;align-items:start}.member-card{min-width:0}.member-photo{aspect-ratio:4/5;width:100%;overflow:hidden;background:#eeede8}.member-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}img.member-photo{height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top}.member-photo-placeholder{display:grid;place-items:center;border:1px solid #e2e1db;background:linear-gradient(145deg,#eeede8,#f5f4f0)}.member-photo-mark{display:flex;flex-direction:column;align-items:center;gap:14px;color:#898981}.member-photo-mark svg{width:52px;height:62px;stroke:#b2b2a8;stroke-width:1.15}.member-photo-mark span{font-size:9px;letter-spacing:.2em}.member-info{padding-top:20px}.member-name{margin:0;font-size:22px;font-weight:600;line-height:1.35;letter-spacing:-.035em}.member-name-en{font-size:13px;line-height:1.6;color:var(--muted);margin-top:5px}.member-details{margin:19px 0 0;border-top:1px solid var(--line);padding-top:11px}.member-details>div{display:grid;grid-template-columns:55px minmax(0,1fr);align-items:start;gap:10px;min-height:30px;padding:4px 0;font-size:12px}.member-details dt{font-size:10px;letter-spacing:.04em;color:var(--muted);line-height:1.9}.member-details dd{margin:0;min-height:22px;line-height:1.7;overflow-wrap:anywhere}.member-details a{text-decoration:underline;text-underline-offset:3px}.member-pending{color:#aaa99f;border-bottom:1px solid #e6e5df}
+    @media(max-width:1050px){.member-group{grid-template-columns:165px minmax(0,1fr);gap:30px}.member-group-heading h3{font-size:21px}.member-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 24px}}
+    @media(max-width:760px){.members-intro{padding:0 0 28px}.members-intro h2{font-size:29px}.members-intro .eyebrow{display:none}.member-group{grid-template-columns:1fr;gap:25px;padding:28px 0 34px}.member-group-heading{display:flex;align-items:baseline;gap:14px}.member-group-number{margin:0;font-size:10px}.member-group-heading h3{max-width:none;font-size:22px}.member-grid{gap:30px 20px}.member-name{font-size:21px}.member-info{padding-top:16px}.member-name-en{font-size:12px}.member-details{margin-top:15px}.member-details>div{grid-template-columns:47px minmax(0,1fr);gap:5px}}
+    @media(max-width:420px){.member-grid{gap:28px 16px}.member-name{font-size:20px}.member-name-en{font-size:11px}.member-group-heading h3{font-size:21px}.member-photo-mark svg{width:42px;height:50px}.member-photo-mark{gap:10px}.member-photo-mark span{font-size:8px}.member-details>div{font-size:11px}}
   </style>
 </head>
 <body>
@@ -140,6 +145,88 @@
         <article class="professor-profile" aria-labelledby="professor-name"><figure class="professor-portrait"><img src="assets/professor-young-min-kim.jpg" alt="김영민 교수 (Young-Min KIM)" width="150" height="225" loading="lazy"></figure><div class="professor-copy"><p class="eyebrow">Professor</p><h2 class="professor-name" id="professor-name">김영민</h2><p class="professor-name-en" lang="en">Young-Min KIM</p><p class="professor-position">교수 · Chonnam National University</p><p class="professor-affiliation">Food Fermentation and Functional Food Lab<br>Department of Integrative Food Bioscience and Biotechnology</p><div class="professor-fields"><strong>전공 및 연구</strong><span>발효식품 및 생물공학</span></div><div class="professor-actions"><a class="text-link" href="#/research">Explore our research <span aria-hidden="true">↗</span></a><a class="professor-source" href="https://foodsci.jnu.ac.kr/foodsci/16737/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZiUyRmZvb2RzY2klMkYxMzUlMkYxNTM4JTJGdmlldy5kbyUzRg%3D%3D" target="_blank" rel="noopener noreferrer">전남대학교 공식 교수 소개 ↗</a></div></div></article>
         <p class="professor-note">미생물 효소를 활용한 저칼로리 고감미소재 개발, 생물전환을 통한 식품소재의 고부가가치화, 난용성 식품소재의 가용화를 연구합니다. 세부 연구 내용은 <a href="#/research">Research</a>에서 확인할 수 있습니다.</p>
       </div>
+      <div id="current-members-content" hidden><header class="members-intro"><h2>Current Members</h2><p class="eyebrow">Our people</p></header>
+<section class="member-group" aria-labelledby="member-group-research-professor"><header class="member-group-heading"><span class="member-group-number" aria-hidden="true">01</span><h3 id="member-group-research-professor" lang="en">Research Professor</h3></header><div class="member-grid">
+<article class="member-card" data-member="seong-jin-hong" aria-labelledby="member-seong-jin-hong">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="홍성진 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-seong-jin-hong" class="member-name">홍성진</h4><p class="member-name-en" lang="en">Seong-Jin Hong</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="hye-jin-kang" aria-labelledby="member-hye-jin-kang">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="강혜진 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-hye-jin-kang" class="member-name">강혜진</h4><p class="member-name-en" lang="en">Hye-Jin Kang</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+</div></section>
+<section class="member-group" aria-labelledby="member-group-postdoctoral-researcher"><header class="member-group-heading"><span class="member-group-number" aria-hidden="true">02</span><h3 id="member-group-postdoctoral-researcher" lang="en">Postdoctoral Researcher</h3></header><div class="member-grid">
+<article class="member-card" data-member="da-eun-jang" aria-labelledby="member-da-eun-jang">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="장다은 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-da-eun-jang" class="member-name">장다은</h4><p class="member-name-en" lang="en">Da-Eun Jang</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+</div></section>
+<section class="member-group" aria-labelledby="member-group-phd-student"><header class="member-group-heading"><span class="member-group-number" aria-hidden="true">03</span><h3 id="member-group-phd-student" lang="en">Ph.D. Student</h3></header><div class="member-grid">
+<article class="member-card" data-member="ok-cheol-kim" aria-labelledby="member-ok-cheol-kim">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="김옥철 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-ok-cheol-kim" class="member-name">김옥철</h4><p class="member-name-en" lang="en">Ok-Cheol Kim</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+</div></section>
+<section class="member-group" aria-labelledby="member-group-ms-student"><header class="member-group-heading"><span class="member-group-number" aria-hidden="true">04</span><h3 id="member-group-ms-student" lang="en">MS Student</h3></header><div class="member-grid">
+<article class="member-card" data-member="min-hyeong-kim" aria-labelledby="member-min-hyeong-kim">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="김민형 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-min-hyeong-kim" class="member-name">김민형</h4><p class="member-name-en" lang="en">Min-Hyeong Kim</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="jin-hwa-lee" aria-labelledby="member-jin-hwa-lee">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="이진화 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-jin-hwa-lee" class="member-name">이진화</h4><p class="member-name-en" lang="en">Jin-Hwa Lee</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="bo-hwa-kim" aria-labelledby="member-bo-hwa-kim">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="김보화 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-bo-hwa-kim" class="member-name">김보화</h4><p class="member-name-en" lang="en">Bo-Hwa Kim</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="min-young-lee" aria-labelledby="member-min-young-lee">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="이민영 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-min-young-lee" class="member-name">이민영</h4><p class="member-name-en" lang="en">Min-Young Lee</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="cheol-jin-yeom" aria-labelledby="member-cheol-jin-yeom">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="염철진 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-cheol-jin-yeom" class="member-name">염철진</h4><p class="member-name-en" lang="en">Cheol-Jin Yeom</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="bo-min-jeong" aria-labelledby="member-bo-min-jeong">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="정보민 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-bo-min-jeong" class="member-name">정보민</h4><p class="member-name-en" lang="en">Bo-Min Jeong</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+</div></section>
+<section class="member-group" aria-labelledby="member-group-undergraduate-student"><header class="member-group-heading"><span class="member-group-number" aria-hidden="true">05</span><h3 id="member-group-undergraduate-student" lang="en">Undergraduate Student</h3></header><div class="member-grid">
+<article class="member-card" data-member="ye-jin-yang" aria-labelledby="member-ye-jin-yang">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="양예진 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-ye-jin-yang" class="member-name">양예진</h4><p class="member-name-en" lang="en">Ye-Jin Yang</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="yu-ju-jang" aria-labelledby="member-yu-ju-jang">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="장유주 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-yu-ju-jang" class="member-name">장유주</h4><p class="member-name-en" lang="en">Yu-Ju Jang</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="yun-jeong-kim" aria-labelledby="member-yun-jeong-kim">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="김윤정 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-yun-jeong-kim" class="member-name">김윤정</h4><p class="member-name-en" lang="en">Yun-Jeong Kim</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+<article class="member-card" data-member="ji-eun-kim" aria-labelledby="member-ji-eun-kim">
+  <!-- Photo, email and major are intentionally blank until provided. -->
+  <div class="member-photo member-photo-placeholder" role="img" aria-label="김지은 사진 등록 예정"><div class="member-photo-mark"><svg viewBox="0 0 64 76" aria-hidden="true" fill="none"><circle cx="32" cy="23" r="13"/><path d="M9 66v-6c0-13 10-22 23-22s23 9 23 22v6"/></svg><span>PHOTO</span></div></div>
+  <div class="member-info"><h4 id="member-ji-eun-kim" class="member-name">김지은</h4><p class="member-name-en" lang="en">Ji-Eun Kim</p><dl class="member-details"><div><dt>Email</dt><dd class="member-pending" aria-label="이메일 추후 입력">—</dd></div><div><dt>주전공</dt><dd class="member-pending" aria-label="주전공 추후 입력">—</dd></div></dl></div>
+</article>
+</div></section>
+</div>
       <div class="empty-panel" id="people-empty"><span class="empty-symbol" aria-hidden="true"></span><div><h2 id="people-title">Current Members</h2><p id="people-description">연구실 구성원 소개를 준비하고 있습니다.</p></div></div></section></div>
     <div class="page" data-page="/publications" hidden><div class="page-banner"><div class="shell"><h1>Publications</h1><p>Research publications</p></div></div><section class="page-content shell" aria-label="연도별 논문 목록"><div class="publications-toolbar"><p class="publications-range">2021 — 2026</p><nav class="publication-years" aria-label="논문 연도 바로가기">
 <button type="button" data-publication-year="2026" aria-label="2026년 논문으로 이동">2026</button>
@@ -277,7 +364,8 @@
         if (key === '/people') {
           const selected = route.split('/')[2];
           document.getElementById('professor-content').hidden = selected !== 'professor';
-          document.getElementById('people-empty').hidden = selected === 'professor';
+          document.getElementById('current-members-content').hidden = selected !== 'current-members';
+          document.getElementById('people-empty').hidden = selected !== 'alumni';
           document.title = personLabels[selected][0] + ' | Food Fermentation and Functional Food Lab';
           document.getElementById('people-title').textContent = personLabels[selected][0];
           document.getElementById('people-description').textContent = personLabels[selected][1];
