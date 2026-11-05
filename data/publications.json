@@ -26,7 +26,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.fbio.2026.110299",
         "https://doi.org/10.1016/j.fbio.2026.110299"
-      ]
+      ],
+      "journal": "Food Bioscience"
     },
     {
       "year": 2026,
@@ -44,7 +45,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.ecoenv.2026.120959",
         "https://doi.org/10.1016/j.ecoenv.2026.120959"
-      ]
+      ],
+      "journal": "Ecotoxicology and Environmental Safety"
     },
     {
       "year": 2026,
@@ -68,7 +70,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.lwt.2026.120046",
         "https://doi.org/10.1016/j.lwt.2026.120046"
-      ]
+      ],
+      "journal": "LWT"
     },
     {
       "year": 2026,
@@ -89,7 +92,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.fbio.2026.109727",
         "https://doi.org/10.1016/j.fbio.2026.109727"
-      ]
+      ],
+      "journal": "Food Bioscience"
     },
     {
       "year": 2026,
@@ -115,7 +119,8 @@
         "https://api.crossref.org/works/10.3390/foods15152647",
         "https://doi.org/10.3390/foods15152647",
         "https://europepmc.org/article/MED/42587907"
-      ]
+      ],
+      "journal": "Foods"
     },
     {
       "year": 2026,
@@ -146,7 +151,8 @@
         "https://api.crossref.org/works/10.1007/s12602-026-10925-y",
         "https://doi.org/10.1007/s12602-026-10925-y",
         "https://europepmc.org/article/MED/41826536"
-      ]
+      ],
+      "journal": "Probiotics and Antimicrobial Proteins"
     },
     {
       "year": 2026,
@@ -167,7 +173,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.fbio.2026.108786",
         "https://doi.org/10.1016/j.fbio.2026.108786"
-      ]
+      ],
+      "journal": "Food Bioscience"
     },
     {
       "year": 2026,
@@ -185,7 +192,8 @@
       "sources": [
         "https://api.crossref.org/works/10.11002/fsp.2026.33.1.104",
         "https://doi.org/10.11002/fsp.2026.33.1.104"
-      ]
+      ],
+      "journal": "Food Science and Preservation"
     },
     {
       "year": 2025,
@@ -203,7 +211,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1186/s12263-025-00788-3",
         "https://doi.org/10.1186/s12263-025-00788-3"
-      ]
+      ],
+      "journal": "Genes & Nutrition"
     },
     {
       "year": 2025,
@@ -224,7 +233,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.foodres.2025.117386",
         "https://doi.org/10.1016/j.foodres.2025.117386"
-      ]
+      ],
+      "journal": "Food Research International"
     },
     {
       "year": 2025,
@@ -245,7 +255,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.foodhyd.2025.111587",
         "https://doi.org/10.1016/j.foodhyd.2025.111587"
-      ]
+      ],
+      "journal": "Food Hydrocolloids"
     },
     {
       "year": 2025,
@@ -268,7 +279,8 @@
         "https://api.crossref.org/works/10.1016/j.ijpx.2025.100424",
         "https://doi.org/10.1016/j.ijpx.2025.100424",
         "https://europepmc.org/article/MED/41230037"
-      ]
+      ],
+      "journal": "International Journal of Pharmaceutics: X"
     },
     {
       "year": 2025,
@@ -298,7 +310,8 @@
         "https://api.crossref.org/works/10.1038/s41538-025-00585-7",
         "https://doi.org/10.1038/s41538-025-00585-7",
         "https://europepmc.org/article/MED/41238664"
-      ]
+      ],
+      "journal": "npj Science of Food"
     },
     {
       "year": 2025,
@@ -318,7 +331,8 @@
         "https://api.crossref.org/works/10.1002/mnfr.70235",
         "https://doi.org/10.1002/mnfr.70235",
         "https://europepmc.org/article/MED/40884154"
-      ]
+      ],
+      "journal": "Molecular Nutrition & Food Research"
     },
     {
       "year": 2025,
@@ -343,7 +357,8 @@
         "https://api.crossref.org/works/10.5851/kosfa.2025.e16",
         "https://doi.org/10.5851/kosfa.2025.e16",
         "https://europepmc.org/article/MED/41821531"
-      ]
+      ],
+      "journal": "Food Science of Animal Resources"
     },
     {
       "year": 2025,
@@ -367,7 +382,8 @@
         "https://api.crossref.org/works/10.1016/j.foodchem.2025.145391",
         "https://doi.org/10.1016/j.foodchem.2025.145391",
         "https://europepmc.org/article/MED/40628072"
-      ]
+      ],
+      "journal": "Food Chemistry"
     },
     {
       "year": 2025,
@@ -389,7 +405,8 @@
       "sources": [
         "https://api.crossref.org/works/10.48022/mbl.2508.08006",
         "https://doi.org/10.48022/mbl.2508.08006"
-      ]
+      ],
+      "journal": "Microbiology and Biotechnology Letters"
     },
     {
       "year": 2025,
@@ -408,7 +425,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1371/journal.pone.0331242",
         "https://doi.org/10.1371/journal.pone.0331242"
-      ]
+      ],
+      "journal": "PLOS One"
     },
     {
       "year": 2025,
@@ -426,7 +444,8 @@
       "sources": [
         "https://api.crossref.org/works/10.11002/fsp.2025.32.4.694",
         "https://doi.org/10.11002/fsp.2025.32.4.694"
-      ]
+      ],
+      "journal": "Food Science and Preservation"
     },
     {
       "year": 2025,
@@ -454,7 +473,8 @@
         "https://api.crossref.org/works/10.1016/j.fochx.2025.102679",
         "https://doi.org/10.1016/j.fochx.2025.102679",
         "https://europepmc.org/article/MED/40612770"
-      ]
+      ],
+      "journal": "Food Chemistry: X"
     },
     {
       "year": 2025,
@@ -475,7 +495,8 @@
         "https://api.crossref.org/works/10.1016/j.ijbiomac.2025.141258",
         "https://doi.org/10.1016/j.ijbiomac.2025.141258",
         "https://europepmc.org/article/MED/39986519"
-      ]
+      ],
+      "journal": "International Journal of Biological Macromolecules"
     },
     {
       "year": 2025,
@@ -498,7 +519,8 @@
         "https://api.crossref.org/works/10.1007/s10068-024-01740-8",
         "https://doi.org/10.1007/s10068-024-01740-8",
         "https://europepmc.org/article/MED/39974855"
-      ]
+      ],
+      "journal": "Food Science and Biotechnology"
     },
     {
       "year": 2024,
@@ -518,7 +540,8 @@
       "sources": [
         "https://api.crossref.org/works/10.29335/tals.2024.62.33",
         "https://doi.org/10.29335/tals.2024.62.33"
-      ]
+      ],
+      "journal": "Trends in Agriculture & Life Sciences"
     },
     {
       "year": 2024,
@@ -540,7 +563,8 @@
         "https://api.crossref.org/works/10.1111/1750-3841.17428",
         "https://doi.org/10.1111/1750-3841.17428",
         "https://europepmc.org/article/MED/39366779"
-      ]
+      ],
+      "journal": "Journal of Food Science"
     },
     {
       "year": 2024,
@@ -564,7 +588,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1111/ijfs.17565",
         "https://doi.org/10.1111/ijfs.17565"
-      ]
+      ],
+      "journal": "International Journal of Food Science and Technology"
     },
     {
       "year": 2024,
@@ -594,7 +619,8 @@
         "https://api.crossref.org/works/10.1007/s10068-023-01473-0",
         "https://doi.org/10.1007/s10068-023-01473-0",
         "https://europepmc.org/article/MED/38623421"
-      ]
+      ],
+      "journal": "Food Science and Biotechnology"
     },
     {
       "year": 2023,
@@ -618,7 +644,8 @@
       "sources": [
         "https://api.crossref.org/works/10.11002/kjfp.2023.30.5.729",
         "https://doi.org/10.11002/kjfp.2023.30.5.729"
-      ]
+      ],
+      "journal": "Korean Journal of Food Preservation"
     },
     {
       "year": 2023,
@@ -637,7 +664,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.foodchem.2023.135892",
         "https://doi.org/10.1016/j.foodchem.2023.135892"
-      ]
+      ],
+      "journal": "Food Chemistry"
     },
     {
       "year": 2023,
@@ -656,7 +684,8 @@
         "https://api.crossref.org/works/10.3390/ijms24108808",
         "https://doi.org/10.3390/ijms24108808",
         "https://europepmc.org/article/MED/37240153"
-      ]
+      ],
+      "journal": "International Journal of Molecular Sciences"
     },
     {
       "year": 2023,
@@ -680,7 +709,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1099/ijsem.0.005874",
         "https://doi.org/10.1099/ijsem.0.005874"
-      ]
+      ],
+      "journal": "International Journal of Systematic and Evolutionary Microbiology"
     },
     {
       "year": 2023,
@@ -700,7 +730,8 @@
       "sources": [
         "https://europepmc.org/article/MED/36845948",
         "https://doi.org/10.3892/etm.2023.11827"
-      ]
+      ],
+      "journal": "Experimental and Therapeutic Medicine"
     },
     {
       "year": 2022,
@@ -720,7 +751,8 @@
       "sources": [
         "https://api.crossref.org/works/10.3390/fermentation8110609",
         "https://doi.org/10.3390/fermentation8110609"
-      ]
+      ],
+      "journal": "Fermentation"
     },
     {
       "year": 2022,
@@ -744,7 +776,8 @@
         "https://api.crossref.org/works/10.1016/j.enzmictec.2022.110023",
         "https://doi.org/10.1016/j.enzmictec.2022.110023",
         "https://europepmc.org/article/MED/35247829"
-      ]
+      ],
+      "journal": "Enzyme and Microbial Technology"
     },
     {
       "year": 2022,
@@ -768,7 +801,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1099/ijsem.0.005399",
         "https://doi.org/10.1099/ijsem.0.005399"
-      ]
+      ],
+      "journal": "International Journal of Systematic and Evolutionary Microbiology"
     },
     {
       "year": 2022,
@@ -794,7 +828,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1089/jmf.2021.k.0154",
         "https://doi.org/10.1089/jmf.2021.k.0154"
-      ]
+      ],
+      "journal": "Journal of Medicinal Food"
     },
     {
       "year": 2022,
@@ -817,7 +852,8 @@
         "https://api.crossref.org/works/10.1016/j.foodchem.2021.130623",
         "https://doi.org/10.1016/j.foodchem.2021.130623",
         "https://europepmc.org/article/MED/34320438"
-      ]
+      ],
+      "journal": "Food Chemistry"
     },
     {
       "year": 2022,
@@ -841,7 +877,8 @@
         "https://api.crossref.org/works/10.1016/j.enzmictec.2021.109941",
         "https://doi.org/10.1016/j.enzmictec.2021.109941",
         "https://europepmc.org/article/MED/34785432"
-      ]
+      ],
+      "journal": "Enzyme and Microbial Technology"
     },
     {
       "year": 2022,
@@ -867,7 +904,8 @@
         "https://api.crossref.org/works/10.1016/j.enzmictec.2021.109939",
         "https://doi.org/10.1016/j.enzmictec.2021.109939",
         "https://europepmc.org/article/MED/34798448"
-      ]
+      ],
+      "journal": "Enzyme and Microbial Technology"
     },
     {
       "year": 2021,
@@ -889,7 +927,8 @@
         "https://api.crossref.org/works/10.3390/foods10112803",
         "https://doi.org/10.3390/foods10112803",
         "https://europepmc.org/article/MED/34829084"
-      ]
+      ],
+      "journal": "Foods"
     },
     {
       "year": 2021,
@@ -918,7 +957,8 @@
       "sources": [
         "https://europepmc.org/article/MED/34867852",
         "https://doi.org/10.3389/fmicb.2021.736343"
-      ]
+      ],
+      "journal": "Frontiers in Microbiology"
     },
     {
       "year": 2021,
@@ -942,7 +982,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1099/ijsem.0.005084",
         "https://doi.org/10.1099/ijsem.0.005084"
-      ]
+      ],
+      "journal": "International Journal of Systematic and Evolutionary Microbiology"
     },
     {
       "year": 2021,
@@ -964,7 +1005,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.biortech.2021.125361",
         "https://doi.org/10.1016/j.biortech.2021.125361"
-      ]
+      ],
+      "journal": "Bioresource Technology"
     },
     {
       "year": 2021,
@@ -990,7 +1032,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1099/ijsem.0.004915",
         "https://doi.org/10.1099/ijsem.0.004915"
-      ]
+      ],
+      "journal": "International Journal of Systematic and Evolutionary Microbiology"
     },
     {
       "year": 2021,
@@ -1016,7 +1059,8 @@
         "https://api.crossref.org/works/10.1016/j.enzmictec.2021.109788",
         "https://doi.org/10.1016/j.enzmictec.2021.109788",
         "https://europepmc.org/article/MED/33992410"
-      ]
+      ],
+      "journal": "Enzyme and Microbial Technology"
     },
     {
       "year": 2021,
@@ -1040,7 +1084,8 @@
         "https://api.crossref.org/works/10.1007/s10068-021-00888-x",
         "https://doi.org/10.1007/s10068-021-00888-x",
         "https://europepmc.org/article/MED/33936850"
-      ]
+      ],
+      "journal": "Food Science and Biotechnology"
     },
     {
       "year": 2021,
@@ -1059,7 +1104,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1016/j.foodchem.2020.128339",
         "https://doi.org/10.1016/j.foodchem.2020.128339"
-      ]
+      ],
+      "journal": "Food Chemistry"
     },
     {
       "year": 2021,
@@ -1085,7 +1131,8 @@
         "https://api.crossref.org/works/10.5897/ajfs2020.2024",
         "https://doi.org/10.5897/ajfs2020.2024",
         "https://academicjournals.org/journal/AJFS/article-abstract/9CF578266230"
-      ]
+      ],
+      "journal": "African Journal of Food Science"
     },
     {
       "year": 2021,
@@ -1107,7 +1154,8 @@
       "sources": [
         "https://api.crossref.org/works/10.1111/jfpp.15202",
         "https://doi.org/10.1111/jfpp.15202"
-      ]
+      ],
+      "journal": "Journal of Food Processing and Preservation"
     }
   ]
 }
