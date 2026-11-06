@@ -73,8 +73,8 @@
     @media(max-width:900px){.page[data-page="/research"] .research-row{grid-template-columns:32px minmax(0,1fr);grid-template-rows:auto auto auto;grid-template-areas:"number title" ". details" ". figure";column-gap:20px;row-gap:16px}.page[data-page="/research"] .research-row>.research-figure{justify-self:start;max-width:440px}}
     @media(max-width:540px){.page[data-page="/research"] .research-row{grid-template-columns:28px minmax(0,1fr);column-gap:14px;padding:28px 0}.page[data-page="/research"] .research-row>.research-figure{max-width:400px}}
 
-    /* Alumni: compact degree-grouped directory. */
-    #alumni-content{width:100%;max-width:640px}
+    /* Alumni: two graduates per row, one per row on mobile. */
+    #alumni-content{width:100%}
     #alumni-content .alumni-intro{margin-bottom:26px}
     #alumni-content .alumni-intro h2{font-size:28px;font-weight:550;letter-spacing:-.035em}
     #alumni-content .alumni-intro p{margin-top:8px;font-size:14px;color:var(--muted)}
@@ -83,20 +83,23 @@
     #alumni-content .alumni-group-heading{display:flex;align-items:baseline;gap:14px;margin-bottom:14px}
     #alumni-content .alumni-group-heading h3{font-size:18px;font-weight:600;letter-spacing:-.025em}
     #alumni-content .alumni-group-heading p{font-size:12px;color:var(--muted)}
-    #alumni-content .alumni-table{width:100%;border-collapse:collapse;table-layout:fixed;text-align:left}
-    #alumni-content .alumni-table col:nth-child(1){width:65%}
-    #alumni-content .alumni-table col:nth-child(2){width:35%}
-    #alumni-content .alumni-table thead th{padding:0 20px 10px 0;border-bottom:1px solid var(--line);font-size:11px;font-weight:500;color:var(--muted)}
-    #alumni-content .alumni-table tbody th,#alumni-content .alumni-table tbody td{padding:16px 20px 16px 0;border-bottom:1px solid var(--line);vertical-align:middle;word-break:keep-all;overflow-wrap:anywhere}
-    #alumni-content .alumni-table tr>:last-child{padding-right:0;text-align:right}
-    #alumni-content .alumni-table tbody th{font-size:17px;font-weight:550;letter-spacing:-.02em}
-    #alumni-content .alumni-date{font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
-    @media(max-width:640px){
+    #alumni-content .alumni-column-labels,#alumni-content .alumni-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:64px}
+    #alumni-content .alumni-column-heading{display:flex;justify-content:space-between;gap:20px;padding-bottom:10px;border-bottom:1px solid var(--line);font-size:11px;font-weight:500;color:var(--muted)}
+    #alumni-content .alumni-list{list-style:none;padding:0;margin:0}
+    #alumni-content .alumni-entry{display:grid;grid-template-columns:minmax(0,1fr) max-content;align-items:center;column-gap:20px;min-width:0;padding:16px 0;border-bottom:1px solid var(--line)}
+    #alumni-content .alumni-name{min-width:0;font-size:17px;font-weight:550;letter-spacing:-.02em;word-break:keep-all;overflow-wrap:anywhere}
+    #alumni-content .alumni-date{font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+    @media(max-width:1050px){
+      #alumni-content .alumni-column-labels,#alumni-content .alumni-list{column-gap:36px}
+    }
+    @media(max-width:760px){
       #alumni-content .alumni-intro h2{font-size:25px}
       #alumni-content .alumni-group+.alumni-group{margin-top:26px}
       #alumni-content .alumni-group-heading{margin-bottom:12px}
-      #alumni-content .alumni-table tbody th,#alumni-content .alumni-table tbody td{padding-top:14px;padding-bottom:14px}
-      #alumni-content .alumni-table tbody th{font-size:16px}
+      #alumni-content .alumni-column-labels,#alumni-content .alumni-list{grid-template-columns:minmax(0,1fr);column-gap:0}
+      #alumni-content .alumni-column-heading:nth-child(2){display:none}
+      #alumni-content .alumni-entry{padding-top:14px;padding-bottom:14px}
+      #alumni-content .alumni-name{font-size:16px}
     }
 </style>
 </head>
@@ -293,39 +296,39 @@
         <header class="alumni-intro"><h2 id="alumni-title">Alumni</h2><p>졸업생</p></header>
         <section class="alumni-group" aria-labelledby="alumni-phd-heading">
           <header class="alumni-group-heading"><h3 id="alumni-phd-heading" lang="en">Ph.D.</h3><p>박사 졸업</p></header>
-          <table class="alumni-table" role="table" aria-labelledby="alumni-phd-heading">
-            <colgroup><col><col></colgroup>
-            <thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">이름</th><th scope="col" role="columnheader">졸업연월</th></tr></thead>
-            <tbody role="rowgroup">
-              <tr role="row"><th scope="row" role="rowheader">장다은</th><td role="cell"><time class="alumni-date" datetime="2026-09">2026.09</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">정아영</th><td role="cell"><time class="alumni-date" datetime="2025-02">2025.02</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">홍성진</th><td role="cell"><time class="alumni-date" datetime="2023-09">2023.09</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">이하늘</th><td role="cell"><time class="alumni-date" datetime="2022-03">2022.03</time></td></tr>
-            </tbody>
-          </table>
+          <div class="alumni-column-labels" aria-hidden="true">
+            <div class="alumni-column-heading"><span>이름</span><span>졸업연월</span></div>
+            <div class="alumni-column-heading"><span>이름</span><span>졸업연월</span></div>
+          </div>
+          <ul class="alumni-list" role="list" aria-label="박사 졸업생 이름과 졸업연월">
+            <li class="alumni-entry"><span class="alumni-name">장다은</span><time class="alumni-date" datetime="2026-09">2026.09</time></li>
+            <li class="alumni-entry"><span class="alumni-name">정아영</span><time class="alumni-date" datetime="2025-02">2025.02</time></li>
+            <li class="alumni-entry"><span class="alumni-name">홍성진</span><time class="alumni-date" datetime="2023-09">2023.09</time></li>
+            <li class="alumni-entry"><span class="alumni-name">이하늘</span><time class="alumni-date" datetime="2022-03">2022.03</time></li>
+          </ul>
         </section>
         <section class="alumni-group" aria-labelledby="alumni-ms-heading">
           <header class="alumni-group-heading"><h3 id="alumni-ms-heading" lang="en">M.S.</h3><p>석사 졸업</p></header>
-          <table class="alumni-table" role="table" aria-labelledby="alumni-ms-heading">
-            <colgroup><col><col></colgroup>
-            <thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">이름</th><th scope="col" role="columnheader">졸업연월</th></tr></thead>
-            <tbody role="rowgroup">
-              <tr role="row"><th scope="row" role="rowheader">김종혁</th><td role="cell"><time class="alumni-date" datetime="2026-09">2026.09</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">김혜진</th><td role="cell"><time class="alumni-date" datetime="2025-03">2025.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">Doan Thi Thanh Huyen</th><td role="cell"><time class="alumni-date" datetime="2023-03">2023.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">임현정</th><td role="cell"><time class="alumni-date" datetime="2023-03">2023.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">안혜수</th><td role="cell"><time class="alumni-date" datetime="2023-03">2023.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">강혜진</th><td role="cell"><time class="alumni-date" datetime="2021-03">2021.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">전도연</th><td role="cell"><time class="alumni-date" datetime="2021-03">2021.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">김유리</th><td role="cell"><time class="alumni-date" datetime="2020-09">2020.09</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">최수정</th><td role="cell"><time class="alumni-date" datetime="2020-03">2020.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">김해수</th><td role="cell"><time class="alumni-date" datetime="2019-03">2019.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">조민호</th><td role="cell"><time class="alumni-date" datetime="2018-09">2018.09</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">김소연</th><td role="cell"><time class="alumni-date" datetime="2018-03">2018.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">양소진</th><td role="cell"><time class="alumni-date" datetime="2018-03">2018.03</time></td></tr>
-              <tr role="row"><th scope="row" role="rowheader">이소현</th><td role="cell"><time class="alumni-date" datetime="2018-03">2018.03</time></td></tr>
-            </tbody>
-          </table>
+          <div class="alumni-column-labels" aria-hidden="true">
+            <div class="alumni-column-heading"><span>이름</span><span>졸업연월</span></div>
+            <div class="alumni-column-heading"><span>이름</span><span>졸업연월</span></div>
+          </div>
+          <ul class="alumni-list" role="list" aria-label="석사 졸업생 이름과 졸업연월">
+            <li class="alumni-entry"><span class="alumni-name">김종혁</span><time class="alumni-date" datetime="2026-09">2026.09</time></li>
+            <li class="alumni-entry"><span class="alumni-name">김혜진</span><time class="alumni-date" datetime="2025-03">2025.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">Doan Thi Thanh Huyen</span><time class="alumni-date" datetime="2023-03">2023.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">임현정</span><time class="alumni-date" datetime="2023-03">2023.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">안혜수</span><time class="alumni-date" datetime="2023-03">2023.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">강혜진</span><time class="alumni-date" datetime="2021-03">2021.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">전도연</span><time class="alumni-date" datetime="2021-03">2021.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">김유리</span><time class="alumni-date" datetime="2020-09">2020.09</time></li>
+            <li class="alumni-entry"><span class="alumni-name">최수정</span><time class="alumni-date" datetime="2020-03">2020.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">김해수</span><time class="alumni-date" datetime="2019-03">2019.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">조민호</span><time class="alumni-date" datetime="2018-09">2018.09</time></li>
+            <li class="alumni-entry"><span class="alumni-name">김소연</span><time class="alumni-date" datetime="2018-03">2018.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">양소진</span><time class="alumni-date" datetime="2018-03">2018.03</time></li>
+            <li class="alumni-entry"><span class="alumni-name">이소현</span><time class="alumni-date" datetime="2018-03">2018.03</time></li>
+          </ul>
         </section>
       </section>
     </section></div>
