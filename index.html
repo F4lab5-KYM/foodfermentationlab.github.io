@@ -152,7 +152,18 @@
       .home-activities-carousel.is-enhanced #home-activities-grid{grid-column:1/-1}
       .home-activities-previous,.home-activities-next{grid-row:2}
     }
-  </style>
+    .professor-education-table { width: 100%; border-collapse: collapse; border-top: 1px solid var(--ink); font-size: 15px; text-align: left; }
+  .professor-education-table th, .professor-education-table td { border-bottom: 1px solid var(--line); padding: 14px 12px 14px 0; }
+  .professor-education-table th { font-size: 13px; font-weight: 550; color: var(--muted); }
+  .professor-education-table td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .professor-education-table td:nth-child(2) { word-break: keep-all; }
+  .professor-education-table :is(th, td):last-child { white-space: nowrap; padding-right: 0; }
+  @media (max-width: 540px) {
+    .professor-education-table { font-size: 13px; }
+    .professor-education-table th, .professor-education-table td { padding: 12px 6px 12px 0; }
+    .professor-education-table td:first-child { font-size: 12px; }
+  }
+</style>
 </head>
 <body>
   <a class="skip-link" href="#main-content">본문 바로가기</a>
@@ -360,6 +371,18 @@
       <div id="professor-content" hidden>
         <article class="professor-profile" aria-labelledby="professor-name"><figure class="professor-portrait"><img src="assets/professor-young-min-kim.jpg" alt="김영민 교수 (Young-Min KIM)" width="150" height="225" loading="lazy"></figure><div class="professor-copy"><p class="eyebrow">Professor</p><h2 class="professor-name" id="professor-name">김영민</h2><p class="professor-name-en" lang="en">Young-Min KIM</p><p class="professor-position">교수 · Chonnam National University</p><p class="professor-affiliation">Food Fermentation and Functional Food Lab<br>Department of Integrative Food Bioscience and Biotechnology</p><div class="professor-fields"><strong>전공 및 연구</strong><span>발효식품 및 생물공학</span></div><div class="professor-actions"><a class="text-link" href="#/research">Explore our research <span aria-hidden="true">↗</span></a></div></div></article>
         <p class="professor-note">미생물 효소를 활용한 저칼로리 고감미소재 개발, 생물전환을 통한 식품소재의 고부가가치화, 난용성 식품소재의 가용화를 연구합니다. 세부 연구 내용은 <a href="#/research">Research</a>에서 확인할 수 있습니다.</p>
+        <section class="professor-career" aria-labelledby="professor-education-heading">
+          <header class="professor-career-heading"><p class="eyebrow" lang="en">Education</p><h3 id="professor-education-heading">학력</h3></header>
+          <table class="professor-education-table" aria-labelledby="professor-education-heading">
+            <thead><tr><th scope="col">기간</th><th scope="col">학교</th><th scope="col">학위</th></tr></thead>
+            <tbody>
+              <tr><td><time datetime="2002-10">2002.10</time> – <time datetime="2005-09">2005.09</time></td><td>홋카이도대학교 (일본)</td><td>박사</td></tr>
+              <tr><td><time datetime="2000-10">2000.10</time> – <time datetime="2002-09">2002.09</time></td><td>홋카이도대학교 (일본)</td><td>석사</td></tr>
+              <tr><td><time datetime="1998-09">1998.09</time> – <time datetime="2000-08">2000.08</time></td><td>전남대학교</td><td>석사</td></tr>
+              <tr><td><time datetime="1993-03">1993.03</time> – <time datetime="1998-08">1998.08</time></td><td>전남대학교</td><td>학사</td></tr>
+            </tbody>
+          </table>
+        </section>
         <section class="professor-career" aria-labelledby="professor-career-heading">
           <header class="professor-career-heading"><p class="eyebrow" lang="en">Professional Activities</p><h3 id="professor-career-heading">경력 및 대외 활동</h3></header>
           <ol class="professor-career-list" role="list">
